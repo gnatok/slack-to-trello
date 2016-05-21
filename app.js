@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({
 }));
 
 function postToTrello(listId, command, text, user_name, cb) {
-  if (text == undefined || text == null || text == "") {
+  if (text === undefined || text === null || text === "") {
     throw new Error('Format is ' + command + ' name | description(optional)');
   }
 
@@ -53,7 +53,7 @@ app.post('/*', function(req, res, next) {
 
 // test route
 app.get('/', function(req, res) {
-  res.status(200).send('SupportKit.io loves Slack and Trello!')
+  res.status(200).send('Stanwood loves Slack and Trello!')
 });
 
 // error handler

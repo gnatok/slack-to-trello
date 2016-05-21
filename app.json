@@ -1,7 +1,7 @@
 {
   "name": "design-requests-2",
-  "description": "Enable Trello card creation from Slack",
-  "repository": "https://github.com/joystickinteractive/slack-to-trello",
+  "description": "Enable Trello card comment creation from Slack",
+  "repository": "https://github.com/gnatok/slack-to-trello",
   "keywords": ["slack", "trello", "javascript", "heroku"],
   "env": {
     "TRELLO_KEY": {
